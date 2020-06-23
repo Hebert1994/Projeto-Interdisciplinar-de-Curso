@@ -126,7 +126,7 @@
             // TXTTEL
             // 
             this.TXTTEL.Location = new System.Drawing.Point(135, 221);
-            this.TXTTEL.MaxLength = 14;
+            this.TXTTEL.MaxLength = 15;
             this.TXTTEL.Name = "TXTTEL";
             this.TXTTEL.Size = new System.Drawing.Size(179, 23);
             this.TXTTEL.TabIndex = 16;
@@ -321,6 +321,7 @@
             // 
             // BTNLimpaCPF
             // 
+            this.BTNLimpaCPF.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTNLimpaCPF.Location = new System.Drawing.Point(320, 192);
             this.BTNLimpaCPF.Name = "BTNLimpaCPF";
             this.BTNLimpaCPF.Size = new System.Drawing.Size(22, 23);
@@ -331,6 +332,7 @@
             // 
             // BTNLimpaTel
             // 
+            this.BTNLimpaTel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTNLimpaTel.Location = new System.Drawing.Point(320, 221);
             this.BTNLimpaTel.Name = "BTNLimpaTel";
             this.BTNLimpaTel.Size = new System.Drawing.Size(22, 23);
