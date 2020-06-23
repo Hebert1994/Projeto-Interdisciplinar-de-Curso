@@ -40,8 +40,11 @@
             this.BTNAlterar = new System.Windows.Forms.Button();
             this.BTNCadastro = new System.Windows.Forms.Button();
             this.panelConteudo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelCabecalho.SuspendLayout();
             this.panelMenu.SuspendLayout();
+            this.panelConteudo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCabecalho
@@ -134,7 +137,7 @@
             this.BTNLocalizar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNLocalizar.ForeColor = System.Drawing.Color.White;
             this.BTNLocalizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNLocalizar.Location = new System.Drawing.Point(3, 146);
+            this.BTNLocalizar.Location = new System.Drawing.Point(3, 199);
             this.BTNLocalizar.Name = "BTNLocalizar";
             this.BTNLocalizar.Size = new System.Drawing.Size(130, 39);
             this.BTNLocalizar.TabIndex = 4;
@@ -150,7 +153,7 @@
             this.BTNDeletar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNDeletar.ForeColor = System.Drawing.Color.White;
             this.BTNDeletar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNDeletar.Location = new System.Drawing.Point(3, 301);
+            this.BTNDeletar.Location = new System.Drawing.Point(3, 407);
             this.BTNDeletar.Name = "BTNDeletar";
             this.BTNDeletar.Size = new System.Drawing.Size(130, 39);
             this.BTNDeletar.TabIndex = 3;
@@ -166,7 +169,7 @@
             this.BTNAlterar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNAlterar.ForeColor = System.Drawing.Color.White;
             this.BTNAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNAlterar.Location = new System.Drawing.Point(3, 219);
+            this.BTNAlterar.Location = new System.Drawing.Point(3, 309);
             this.BTNAlterar.Name = "BTNAlterar";
             this.BTNAlterar.Size = new System.Drawing.Size(130, 39);
             this.BTNAlterar.TabIndex = 2;
@@ -182,7 +185,7 @@
             this.BTNCadastro.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNCadastro.ForeColor = System.Drawing.Color.White;
             this.BTNCadastro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNCadastro.Location = new System.Drawing.Point(3, 66);
+            this.BTNCadastro.Location = new System.Drawing.Point(3, 86);
             this.BTNCadastro.Name = "BTNCadastro";
             this.BTNCadastro.Size = new System.Drawing.Size(130, 39);
             this.BTNCadastro.TabIndex = 1;
@@ -194,11 +197,23 @@
             // 
             this.panelConteudo.BackgroundImage = global::PadraoDeProjetoEmCamadas.Properties.Resources.enfermagem_3_152321;
             this.panelConteudo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelConteudo.Controls.Add(this.pictureBox1);
             this.panelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelConteudo.Location = new System.Drawing.Point(136, 40);
             this.panelConteudo.Name = "panelConteudo";
             this.panelConteudo.Size = new System.Drawing.Size(664, 505);
             this.panelConteudo.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(580, 423);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(84, 82);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Menu
             // 
@@ -214,6 +229,8 @@
             this.panelCabecalho.ResumeLayout(false);
             this.panelCabecalho.PerformLayout();
             this.panelMenu.ResumeLayout(false);
+            this.panelConteudo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -230,6 +247,7 @@
         private System.Windows.Forms.Button BTNAlterar;
         private System.Windows.Forms.Button BTNCadastro;
         private System.Windows.Forms.Button BTNLocalizar;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelConteudo;
     }
 }

@@ -32,7 +32,6 @@ namespace MODELO
                 id = value;
             }
         }
-
         public string Nome
         {
             get
@@ -69,7 +68,6 @@ namespace MODELO
                 dataNascimento = value;
             }
         }
-
         public string Endereco
         {
             get
@@ -82,7 +80,6 @@ namespace MODELO
                 endereco = value;
             }
         }
-
         public string Email
         {
             get
@@ -95,7 +92,6 @@ namespace MODELO
                 email = value;
             }
         }
-
         public string Cpf
         {
             get
@@ -120,7 +116,6 @@ namespace MODELO
                 telefone = value;
             }
         }
-
         public string Descricao
         {
             get
