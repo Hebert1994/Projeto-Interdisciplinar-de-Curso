@@ -202,7 +202,7 @@
             this.panelConteudo.Location = new System.Drawing.Point(136, 40);
             this.panelConteudo.Name = "panelConteudo";
             this.panelConteudo.Size = new System.Drawing.Size(664, 505);
-            this.panelConteudo.TabIndex = 5;
+            this.panelConteudo.TabIndex = 6;
             // 
             // pictureBox1
             // 
@@ -224,6 +224,7 @@
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelCabecalho);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
             this.Text = "Menu";
             this.panelCabecalho.ResumeLayout(false);
@@ -247,7 +248,7 @@
         private System.Windows.Forms.Button BTNAlterar;
         private System.Windows.Forms.Button BTNCadastro;
         private System.Windows.Forms.Button BTNLocalizar;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelConteudo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
