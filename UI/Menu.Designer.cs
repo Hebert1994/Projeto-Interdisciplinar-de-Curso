@@ -35,6 +35,7 @@
             this.BTNMaximizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.Relatorios = new System.Windows.Forms.Button();
             this.BTNLocalizar = new System.Windows.Forms.Button();
             this.BTNDeletar = new System.Windows.Forms.Button();
             this.BTNAlterar = new System.Windows.Forms.Button();
@@ -119,6 +120,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.panelMenu.Controls.Add(this.Relatorios);
             this.panelMenu.Controls.Add(this.BTNLocalizar);
             this.panelMenu.Controls.Add(this.BTNDeletar);
             this.panelMenu.Controls.Add(this.BTNAlterar);
@@ -129,6 +131,22 @@
             this.panelMenu.Size = new System.Drawing.Size(136, 505);
             this.panelMenu.TabIndex = 2;
             // 
+            // Relatorios
+            // 
+            this.Relatorios.FlatAppearance.BorderSize = 0;
+            this.Relatorios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumAquamarine;
+            this.Relatorios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Relatorios.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Relatorios.ForeColor = System.Drawing.Color.White;
+            this.Relatorios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Relatorios.Location = new System.Drawing.Point(3, 399);
+            this.Relatorios.Name = "Relatorios";
+            this.Relatorios.Size = new System.Drawing.Size(130, 39);
+            this.Relatorios.TabIndex = 5;
+            this.Relatorios.Text = "Relatorios";
+            this.Relatorios.UseVisualStyleBackColor = true;
+            this.Relatorios.Click += new System.EventHandler(this.Relatorios_Click);
+            // 
             // BTNLocalizar
             // 
             this.BTNLocalizar.FlatAppearance.BorderSize = 0;
@@ -137,7 +155,7 @@
             this.BTNLocalizar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNLocalizar.ForeColor = System.Drawing.Color.White;
             this.BTNLocalizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNLocalizar.Location = new System.Drawing.Point(3, 199);
+            this.BTNLocalizar.Location = new System.Drawing.Point(3, 162);
             this.BTNLocalizar.Name = "BTNLocalizar";
             this.BTNLocalizar.Size = new System.Drawing.Size(130, 39);
             this.BTNLocalizar.TabIndex = 4;
@@ -153,7 +171,7 @@
             this.BTNDeletar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNDeletar.ForeColor = System.Drawing.Color.White;
             this.BTNDeletar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNDeletar.Location = new System.Drawing.Point(3, 407);
+            this.BTNDeletar.Location = new System.Drawing.Point(3, 322);
             this.BTNDeletar.Name = "BTNDeletar";
             this.BTNDeletar.Size = new System.Drawing.Size(130, 39);
             this.BTNDeletar.TabIndex = 3;
@@ -169,7 +187,7 @@
             this.BTNAlterar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNAlterar.ForeColor = System.Drawing.Color.White;
             this.BTNAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNAlterar.Location = new System.Drawing.Point(3, 309);
+            this.BTNAlterar.Location = new System.Drawing.Point(3, 243);
             this.BTNAlterar.Name = "BTNAlterar";
             this.BTNAlterar.Size = new System.Drawing.Size(130, 39);
             this.BTNAlterar.TabIndex = 2;
@@ -250,5 +268,6 @@
         private System.Windows.Forms.Button BTNLocalizar;
         private System.Windows.Forms.Panel panelConteudo;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Relatorios;
     }
 }

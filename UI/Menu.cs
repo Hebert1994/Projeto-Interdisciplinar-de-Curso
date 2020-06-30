@@ -88,6 +88,10 @@ namespace PadraoDeProjetoEmCamadas
         {
             AbrirFormNoPanel<SobreNos>();
         }
-       
+
+        private void Relatorios_Click(object sender, EventArgs e)
+        {
+            AbrirFormNoPanel<Relatorio>();
+        }
     } 
 }
